@@ -12,3 +12,45 @@ img,
 video {
   display: block;
 }
+
+.rail {
+  width: 200px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-top,
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text {
+  color: #754ff6;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.dashboard,
+.app,
+.store,
+.profile,
+.logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.text.red {
+  color: #e5807c;
+}
